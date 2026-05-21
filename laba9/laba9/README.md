@@ -98,7 +98,7 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 Установка зависимостей:
 
 ```bash
-pip install numpy matplotlib requests scipy
+pip install numpy matplotlib scipy
 ```
 
 ---
