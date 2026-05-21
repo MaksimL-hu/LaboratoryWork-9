@@ -1,6 +1,8 @@
 # Лабораторная работа №9
 ## Анализ шума
 
+---
+
 ### Исходные данные
 
 - Входной файл: `musical-instrument-flute-rhythm-sound.wav`
@@ -9,6 +11,7 @@
 - Длительность: `6.989` с
 - Количество отсчетов: `308207`
 
+---
 
 ### Метод
 
@@ -20,6 +23,8 @@
 4. Фаза берется от исходного сигнала.
 5. Сигнал восстанавливается через inverse STFT.
 ```
+
+---
 
 ### Оценка шума
 
@@ -34,11 +39,15 @@
 
 CSV со сводкой: `results_lab9/csv/summary.csv`
 
+---
+
 ### 1. Осциллограммы
 
 | До обработки | После обработки |
 |:--:|:--:|
 | ![wave before](results_lab9/plots/waveform_before.png) | ![wave after](results_lab9/plots/waveform_after.png) |
+
+---
 
 ### 2. Спектры
 
@@ -46,11 +55,15 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 |:--:|:--:|
 | ![spectrum before](results_lab9/plots/spectrum_before.png) | ![spectrum after](results_lab9/plots/spectrum_after.png) |
 
+---
+
 ### 3. Спектрограммы
 
 | До шумопонижения | После шумопонижения |
 |:--:|:--:|
 | ![spectrogram before](results_lab9/plots/spectrogram_before.png) | ![spectrogram after](results_lab9/plots/spectrogram_after.png) |
+
+---
 
 ### 4. Моменты максимальной энергии
 
@@ -71,8 +84,29 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 
 Полная таблица максимумов энергии: `results_lab9/csv/energy_events.csv`
 
+---
+
 ### 5. Восстановленная звуковая дорожка
 
 - Исходный mono WAV: `results_lab9/audio/original_mono.wav`
 - Очищенный WAV: `results_lab9/audio/cleaned_spectral_subtraction.wav`
 
+---
+
+# Установка
+
+Установка зависимостей:
+
+```bash
+pip install numpy matplotlib requests scipy
+```
+
+---
+
+# Запуск программы
+
+Запуск:
+
+```bash
+python laba9.py
+```
