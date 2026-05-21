@@ -45,7 +45,7 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 
 | До обработки | После обработки |
 |:--:|:--:|
-| ![wave before](results_lab9/plots/waveform_before.png) | ![wave after](results_lab9/plots/waveform_after.png) |
+| ![wave before](./laba9/laba9/results_lab9/plots/waveform_before.png) | ![wave after](./laba9/laba9/results_lab9/plots/waveform_after.png) |
 
 ---
 
@@ -53,7 +53,7 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 
 | До обработки | После обработки |
 |:--:|:--:|
-| ![spectrum before](results_lab9/plots/spectrum_before.png) | ![spectrum after](results_lab9/plots/spectrum_after.png) |
+| ![spectrum before](./laba9/laba9/results_lab9/plots/spectrum_before.png) | ![spectrum after](./laba9/laba9/results_lab9/plots/spectrum_after.png) |
 
 ---
 
@@ -61,7 +61,7 @@ CSV со сводкой: `results_lab9/csv/summary.csv`
 
 | До шумопонижения | После шумопонижения |
 |:--:|:--:|
-| ![spectrogram before](results_lab9/plots/spectrogram_before.png) | ![spectrogram after](results_lab9/plots/spectrogram_after.png) |
+| ![spectrogram before](./laba9/laba9/results_lab9/plots/spectrogram_before.png) | ![spectrogram after](./laba9/laba9/results_lab9/plots/spectrogram_after.png) |
 
 ---
 
